@@ -11,12 +11,15 @@ import MenuLista from "../Listas/MenuLista"
 
 function MenuTwo(props){
     const navigate = useNavigate();
+    const handlePrincipalClick = () => {
+        navigate("/principal");
+      };
     
     return(
         <>
             <div className="navBar">
                 <div className="logo">
-                    <a className="hrefStyleNone" href="http://localhost:3000/principal"><img alt="Logo VoVê" src={logo}></img></a>
+                <a className="hrefStyleNone" onClick={handlePrincipalClick}><img alt="Logo VoVê" src={logo}></img></a>
                 </div>
                 <div className="menuRight">
                     <MenuLista/>

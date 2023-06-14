@@ -3,18 +3,31 @@ import "./Menu.css"
 import BotaoPrimario from "../../Botoes/BotaoPrimario/BotaoPrimario";
 import BotaoSecundario from "../../Botoes/BotaoSecundario/BotaoSecundario";
 import logo from "../../../imgs/imgs/logo.svg"
+import { useNavigate } from "react-router-dom";
 
 
 function Menu(){
+    const navigate = useNavigate();
+    const handleIndexClick = () => {
+        navigate("/");
+      };
+
+    const handleLoginClick = () => {
+      navigate("/login");
+    };
+
+    const handleCadastroClick = () => {
+      navigate("/cadastro");
+    };
     return(
         <>
             <div className="navBar">
                 <div className="logo">
-                    <a className="hrefStyleNone" href="http://localhost:3000/"><img alt="Logo VoVê" src={logo}></img></a>
+                <a className="hrefStyleNone" onClick={handleIndexClick}><img alt="Logo VoVê" src={logo}></img></a>
                 </div>
                 <div className="botoes">
-                    <a className="hrefStyleNone" href="http://localhost:3000/login"><BotaoSecundario tituloBtn = "Entrar" /></a>
-                    <a className="hrefStyleNone" href="http://localhost:3000/cadastro"><BotaoPrimario tituloBtn = "Cadastrar" /></a>
+                <a className="hrefStyleNone" onClick={handleLoginClick} ><BotaoSecundario tituloBtn = "Entrar" /></a>
+                    <a className="hrefStyleNone" onClick={handleCadastroClick}><BotaoPrimario tituloBtn = "Cadastrar" /></a>
                 </div>
             </div>
         </>

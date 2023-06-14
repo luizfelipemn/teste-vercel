@@ -59,6 +59,9 @@ function Login ()
     {
         setIsModalOpen( false );
     }
+    const handleCadastroClick = () => {
+        navigate("/cadastro");
+      };
 
     return (
         <>
@@ -69,7 +72,7 @@ function Login ()
                         <div className="divFraseLogin">
                             <h1 className='fraseLogin'>AINDA <h1 className='palavraVerde'>NÃO</h1> POSSUI UMA <h1 className='palavraVerde'>CONTA?</h1></h1>
                         </div>
-                        <a className='hrefStyleNone' href="http://localhost:3000/cadastro"><BotaoPrimario tituloBtn="Cadastrar" /></a>
+                        <a className='hrefStyleNone'onClick={handleCadastroClick}><BotaoPrimario tituloBtn="Cadastrar" /></a>
                     </div>
                     <form onSubmit={ handleSubmit } className='divLogin'>
                         <div className='divInputsLogin'>

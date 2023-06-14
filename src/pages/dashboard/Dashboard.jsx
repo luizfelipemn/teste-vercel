@@ -135,6 +135,14 @@ function Dashboard ()
             console.log( "Erro" );
         }
     };
+    
+    const handleAlterarSenhaClick = () => {
+        navigate("/alterarSenha");
+      };
+
+      const handleCadastro2Click = () => {
+        navigate("/cadastro2");
+      };
 
     return (
         <>
@@ -213,7 +221,7 @@ function Dashboard ()
                                 <div className="divDtNascimentoSenhaDashboard">
 
                                     <div className="divBotaoAlterarSenha">
-                                        <a className="hrefStyleNone" href="http://localhost:3000/alterarSenha"><span className="tituloBotaoAddFoto">Alterar senha</span></a>
+                                    <a className="hrefStyleNone" onClick={handleAlterarSenhaClick}><span className="tituloBotaoAddFoto">Alterar senha</span></a>
                                     </div>
 
                                     <div className="divBotaoAlterarSenha" onClick={ handleClick }>
@@ -232,7 +240,7 @@ function Dashboard ()
                                     </Modal>
 
                                     <div className="divBotaoAlterarSenha" onClick={ handleClick }>
-                                        <a className="hrefStyleNone" href="http://localhost:3000/cadastro2"><span className="tituloBotaoAddFoto">Completar Cadastro</span></a>
+                                    <a className="hrefStyleNone" onClick={handleCadastro2Click}><span className="tituloBotaoAddFoto">Completar Cadastro</span></a>
                                     </div>
 
                                 </div>

@@ -43,7 +43,7 @@ function Cadastrar ()
 
             }, 9000 );
 
-            api.post( "usuarios", novoUsuario )
+            api.post( "/usuarios", novoUsuario )
                 .then( () =>
                 {
                     navigate( "/login" );
@@ -61,6 +61,9 @@ function Cadastrar ()
         setIsModalOpen( false );
         setIsModalSenhaOpen( false );
     }
+    const handleLoginClick = () => {
+        navigate("/login");
+      };
 
     return <>
         <MenuThree />
@@ -70,7 +73,7 @@ function Cadastrar ()
                     <div className='divFraseCadastro'>
                         <h1 className='frase'>JÁ <h1 className='palavraVerde'> POSSUÍ </h1> UMA <h1 className='palavraVerde'> CONTA? </h1></h1>
                     </div>
-                    <a className='hrefStyleNone' href="http://localhost:3000/login"><BotaoPrimario tituloBtn="Login" /></a>
+                    <a className='hrefStyleNone' onClick={handleLoginClick}><BotaoPrimario tituloBtn="Login" /></a>
                 </div>
                 <form className='divCadastro'  onSubmit={ cadastrar }>
                     <div className='divBoxCadastro'>

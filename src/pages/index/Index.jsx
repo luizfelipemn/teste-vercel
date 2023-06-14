@@ -5,6 +5,7 @@ import MenuOne from "../../componentes/Menus/MenuOne/Menu";
 import Footer from "../../componentes/Footer/Footer";
 import BotaoPrimario from "../../componentes/Botoes/BotaoPrimario/BotaoPrimario";
 import api from '../../api';
+import { useNavigate } from 'react-router-dom';
 
 function Index() {
   const [filmes, setFilmes] = useState([]);
@@ -41,6 +42,11 @@ function Index() {
 
   let caminhoImg = "https://image.tmdb.org/t/p/original"
 
+  const navigate = useNavigate();
+  const handlePrincipalClick = () => {
+      navigate("/principal");
+    };
+
   return (
     <>
       <MenuOne />
@@ -58,7 +64,7 @@ function Index() {
               </h3>
             </div>
             <div className="divBotaoInfoFilmes">
-              <a className="hrefStyleNone" href="http://localhost:3000/principal"><BotaoPrimario tituloBtn="Visualizar Filmes" /></a>
+            <a className="hrefStyleNone" onClick={handlePrincipalClick}><BotaoPrimario tituloBtn="Visualizar Filmes" /></a>
             </div>
           </div>
           {filmes.length > 0 && (

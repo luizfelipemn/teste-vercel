@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://20.124.249.169:8080"  // URL base para realizar as requisições
+    baseURL: "https://vove-aplication-1686536532334.azurewebsites.net"  // URL base para realizar as requisições
 })
 
 //    "http://localhost:8080"
