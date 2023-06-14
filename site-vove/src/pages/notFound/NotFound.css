@@ -1,0 +1,15 @@
+.div-notFound{
+    /* margin-top: 0.5rem; */
+    margin-left: 10rem;
+    font-family: 'Robbot';
+    font-size: 6rem;
+    
+}
+
+.div-walle{
+    height: 32rem;
+    width: 56.25rem;
+    background-image: url('../../imgs/imgs/image-removebg-preview.png');
+    background-size: cover;
+    margin-left: 30rem;
+}

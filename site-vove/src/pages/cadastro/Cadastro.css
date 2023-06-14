@@ -1,0 +1,122 @@
+.divInfoCadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.625rem;
+    gap: 2rem;
+    width: 27.625rem;
+    height: 35.4375rem;
+    flex: none;
+}
+
+.divFraseCadastro {
+    width: 26.375rem;
+    height: 18.75rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.frase {
+    font-size: 3.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4rem;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 0;
+}
+
+.palavraVerde {
+    color: #1DB954;
+}
+
+.containerCadastro {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 35.4375rem;
+    padding: 1.25rem;
+    margin-top: 6.25rem;
+}
+
+.tituloCard {
+    align-items: flex-start;
+}
+
+.tituloCard .tituloLinhaVerde {
+    padding-left: 0%;
+    padding-bottom: 1.875rem;
+}
+
+.divCadastro {
+    width: 52.875rem;
+    height: 32.25rem;
+    background: #0C011C;
+    border: 0.0625rem solid #1DB954;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.divBoxCadastro {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    padding: 0.625rem;
+    width: 80%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.tituloCadastro {
+    width: 17.125rem;
+    height: 2.6875rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 135%;
+    color: #ECECEC;
+    border-bottom: 2px solid #1DB954;
+    align-self: stretch;
+}
+
+.divInputsCadastro {
+    width: 100%;
+    height: 23.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.botaoCadastrar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.botaoCadastrar .btnVerde {
+    margin: 0%;
+}

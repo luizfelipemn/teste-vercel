@@ -1,0 +1,111 @@
+.cardPrincipal {
+  width: 12.5rem;
+  height: 22.188rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 12.5rem;
+  height: 18.438rem;
+  background-size: cover;
+
+}
+
+.nota{
+  font-family: 'Poppins';
+  color: #1DB954;
+  font-size: 1.375rem;
+}
+
+.nomeFilme{
+font-family: 'Poppins';
+color: white;
+font-size: 1rem;
+}
+
+.banner:hover {
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.3;
+}
+
+.banner .texto {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px !important;
+}
+
+.texto h1{
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #1DB954;
+  font-size: 1.5rem;
+}
+
+.banner:hover .texto {
+  display: block;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.8;
+  cursor: pointer;
+  
+}
+
+/* Media queries para diferentes resoluções */
+
+@media only screen and (max-width: 1920px) {
+  /* Estilos para tela Full HD */
+  .cardPrincipal {
+    width: 12.5rem;
+    height: 22.188rem;
+  }
+
+  .banner {
+    width: 12.5rem;
+    height: 18.438rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  /* Estilos para tela HD */
+  .cardPrincipal {
+    width: 8.75rem;
+    height: 16.875rem;
+  }
+
+  .banner img{
+    width: 8.75rem;
+    height: 15.313rem;
+  }
+
+  .texto h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para dispositivos móveis */
+  .cardPrincipal {
+    width: 8rem;
+    height: 14rem;
+  }
+
+  .banner {
+    width: 8rem;
+    height: 10rem;
+  }
+
+  .texto h1 {
+    font-size: 1rem;
+  }
+}

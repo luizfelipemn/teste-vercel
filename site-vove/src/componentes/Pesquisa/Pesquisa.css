@@ -1,0 +1,17 @@
+.search-container input{
+    height: 3rem;
+    width: 17.125rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 20;
+    padding-left: 15px;
+   
+}
+
+.search-container input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+

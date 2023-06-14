@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #0C001C;
+  }
+  
+  /* Define a cor do indicador da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #1DB954;
+    border-radius: 10px;
+    border: 3px solid #0C001C;
+  }
+  
+  /* Define a largura da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    width: 12px;
+  }
+
+
+  #Container {
+    background: linear-gradient(113.14deg, #0C001C 20.46%, #1B003D 81.57%, #2E0068 97.79%, #150030 103.56%, #0C001C 106.15%); 
+    min-height: 100vh;
+    color: white;
+    padding-top: 4%;
+  }
+

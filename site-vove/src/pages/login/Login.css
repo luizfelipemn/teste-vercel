@@ -1,0 +1,110 @@
+.containerLogin {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 31.25rem;
+    padding: 1.25rem;
+    margin-top: 6.25rem;
+}
+
+.divInfoLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 37.3125rem;
+    height: 31.25rem;
+}
+
+.divFraseLogin {
+    width: 36.0625rem;
+    height: 18.75rem;
+}
+
+.fraseLogin {
+    font-size: 3.5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    gap: 2rem;
+    padding: 0;
+}
+
+.palavraVerde {
+    color: #1DB954;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.divLogin {
+    width: 31.875rem;
+    height: 30.125rem;
+    background: #0C011C;
+    border: 0.0625rem solid #1DB954;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.divInputsLogin {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    padding: 0.625rem;
+    width: 21.375rem;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.tituloCard .tituloLinhaVerde {
+    padding-left: 0%;
+    padding-bottom: 1.875rem;
+}
+
+.divInputEmailSenha {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 50%;
+}
+
+.emailSenha {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 135%;
+    color: #ECECEC;
+}
+
+.inputEmailSenha {
+    width: 18.75rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.botaoLogin {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.botaoLogin .btnVerde {
+    margin: 0%;
+}

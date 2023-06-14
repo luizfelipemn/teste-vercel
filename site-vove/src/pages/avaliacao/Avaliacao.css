@@ -1,0 +1,365 @@
+.bannerFundo {
+    position: relative;
+  }
+
+  .tituloLinhaVerdeAvaliacao{
+    padding-left: 50px;
+  }
+  
+  .imgBannerBackgroundContainer {
+    position: relative;
+    display: inline-block;
+    height: 50vh; /* Define a altura para 30% da altura da tela */
+    width: 100%; /* Ocupa a largura total */
+    overflow: hidden; /* Para cortar a imagem caso exceda a altura definida */
+  }
+  
+  .imgBannerBackground {
+    width: 100%;
+    height: 60vh;
+  }
+  
+  .textAndAddList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .addListTop {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #1DB954;
+    transition: font-size 0.3s ease; 
+    cursor: pointer;
+  }
+  
+  .addListTop:hover {
+    font-size: 16.1px;
+    transform: scale(1.00); /* Aumenta levemente o tamanho do elemento em 5% */
+  }
+
+/* ----Parte De voto, comentarios e trailer--------------------------------------------------------------------------------------------- */
+
+.containerComment{
+    padding-top: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 20px;
+      box-shadow: -15px -200px 40px rgba(13, 1, 40, 0.718),
+                  -15px -150px 30px rgba(13, 1, 40, 0.485),
+                  -15px -100px 20px rgba(13, 1, 40, 0.285),
+                  -15px -50px 10px rgba(13, 1, 40, 0.085);
+    
+    position:sticky
+  }
+
+
+  
+/*-------- Parte de voto e Onde Assistir -------------------------------------------------------------------------------------------- */
+
+.containerComment .votAndWatchArea{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+/*---------------- Parte de voto -----------------------------------------------------------------------*/
+
+.votArea .titleLinhaVerdeText{
+    font-size: 24px !important;
+}
+
+.votArea .votEyes{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.eye {
+    display: inline-block;
+    width: 22px;
+    height: 32px;
+    background-image: url('../../imgs/icons/olhoCinza.svg');
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .eye.highlight {
+    width: 22px;
+    height: 32px;
+    background-image: url('../../imgs/icons/olhoVerde.svg');
+  }
+  
+  .votEyes {
+    font-size: 0;
+    padding-top: 10px;
+    position: relative;
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1B003D;
+    color: #1DB954;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+    display: none;
+    z-index: 1;
+  }
+  
+/*--------------- FIM Parte de voto -----------------------------------------------------------------*/
+
+/*--------------- INICIO Parte onde assistir --------------------------------------------------------*/
+
+.watchArea .titleLinhaVerdeText{
+    font-size: 24px !important;
+}
+
+.whereToWatch{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+/*--------------- INICIO Parte onde assistir --------------------------------------------------------*/
+/*-------- FIM PARTE DE VOTO E ONDE ASSISTIR ---------------------------------------------------------------------------------------- */
+
+
+ /* PARTE DE COMENTAR E ULTIMOS COMENTARIOS */
+.containerComment .commentsArea{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.commentsAreaTop {
+    justify-content: space-around;
+    gap: 10px;
+    height: 30%;
+}
+
+.commentsAreaTop .areaDeComentarioInput .submmitResenha{
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkBoxHaveSpoiler{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #32ca67;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.commentsAreaTop .tituloLinhaVerde{
+    padding-left: 0px;
+}
+
+.commentsAreaTop .textArea{
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    font-family: 'Poppins';
+    overflow: auto;
+    border-radius: 5px;
+    border: 2px solid #1DB954;
+    height: 150px;
+    width: 600px;
+    max-height: 200px;
+    max-width: 750px;
+    min-height: 100px;
+    min-width: 700px;
+}
+
+.commentsArea .ultimasResenhasAvaliacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerComment .trailerAndSiposeArea{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trailerAndSiposeArea .titleLinhaVerdeText{
+    font-size: 24px !important;
+}
+
+
+.trailerAndSiposeArea .trailerVideo{
+    width: 100%;
+}
+
+.trailerArea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sinopseArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    height: auto;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+/* MODAAAAAAAAAAAAAAAAAL */
+
+.modalAdicionaFilme{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalAdicionaFilme {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+}
+
+.div-form {
+  width: 33.313rem;
+  border: 0.063rem solid #1DB954;
+  background-color: #0C001C;
+  border-radius: 7px;
+  height: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  padding: 20px;
+  overflow: auto;
+}
+
+.modalAdicionaFilme input {
+  width: 28.313rem;
+  height: 3.375rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  margin-top: 0.4rem;
+}
+
+.modalAdicionaFilme input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.div-buttons {
+  width: 28.313rem;
+  display: flex;
+  margin-top: 0.4rem;
+  justify-content: space-between;
+}
+
+.botao-cancelar {
+  background-color: darkred;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: white;
+}
+
+.botao-cancelar:hover {
+  background-color: rgb(117, 0, 0);
+  border-radius: 0.625rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.div-form label {
+  font-size: 1.5rem;
+}
+
+.div-form ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: aliceblue;
+  margin-top: 0.5rem;
+
+}
+
+.div-form li {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #1db95473;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.combobox li:hover {
+  background-color: #000000;
+}
+  

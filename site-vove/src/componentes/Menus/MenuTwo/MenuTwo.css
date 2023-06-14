@@ -1,0 +1,141 @@
+.navBar {
+    height: 6.938rem;
+    position: fixed;
+}
+
+.logo{
+    height: 100%;
+    width: 9.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 4.7619rem;
+}
+
+
+.menuRight {
+    width: 21.125rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 4.375rem;
+}
+
+.menuRight .myList {
+    width: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Poppins;
+    font-size: 1rem;
+    color: #1DB954;
+}
+
+.menuRight .myList:hover {
+    cursor: pointer;
+    color: #22dd63;
+}
+
+.menuRight .iconProfile {
+    width: 2.75rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuRight .userNav {
+    width: auto;
+    min-width: 6.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuRight .userNav:hover {
+    cursor: pointer;
+}
+
+.menuRight .userNav .userName {
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+
+.menuRight .userNav .userName:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.menuRight .userNav img:hover {
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1920px) {
+    /* Estilos para tela HD */
+    .navBar {
+        height: 5rem;
+    }
+    
+    .logo {
+        margin-left: 3rem;
+    }
+    
+    .menuRight {
+        width: 20rem;
+        margin-right: 3rem;
+    }
+    
+    .menuRight .myList {
+        width: 6rem;
+        font-size: 0.875rem;
+    }
+    
+    .menuRight .iconProfile {
+        width: 2.25rem;
+    }
+    
+    .menuRight .userNav .userName {
+        font-size: 1.125rem;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móveis de tela pequena */
+    .navBar {
+        height: 3rem;
+    }
+    
+    .logo {
+        width: 7.5rem;
+        margin-left: 1rem;
+    }
+
+    .menuRight {
+        width: 10rem;
+        margin-right: 1rem;
+    }
+    
+    .menuRight .myList {
+        width: 5rem;
+        font-size: 0.875rem;
+    }
+    
+    .menuRight .iconProfile {
+        width: 2.25rem;
+    }
+    
+    .menuRight .userNav .userName {
+        font-size: 1.125rem;
+        padding-right: 10px;
+    }
+}

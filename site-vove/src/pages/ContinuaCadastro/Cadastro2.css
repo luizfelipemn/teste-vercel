@@ -1,0 +1,118 @@
+.div-completar{
+    margin-top: 3rem;
+}
+
+.div-continua{
+    width: 98.25rem;
+    height: 40rem;
+    margin-left: 4rem;
+    background: linear-gradient(180deg, #28015B 0%, rgba(70, 0, 160, 0.17) 100%);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.div-continua button{
+    background-color: #1DB954;
+    height: 3rem;
+    width: 23.25rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.div-continua button:hover{
+    background-color: #1b8e43;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.div-inputs{
+    height: 17rem;
+    width: 87.375rem;
+    margin-left: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-toggles{
+    height: 17rem;
+    width: 87.375rem;
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 1.375rem;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.div-toggles label{
+    margin-top: 1rem;
+}
+
+.div-toggles .checkBoxHaveSpoiler input{
+    margin-top: 1rem;
+}
+
+.div-inputs label{
+    font-family: 'Poppins';
+    font-size: 1.375rem;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.div-inputs input{
+    width: 23.25rem;
+    height: 3.563rem;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    padding: 1rem;
+    background-color: #150030;
+    border-radius: 0.5rem;
+    color: white;
+    border: #150030;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    
+}
+
+.primeiro-bloco{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.segundo-bloco{
+    display: flex;
+    flex-direction: column;
+}
+
+.terceiro-bloco{
+    display: flex;
+    flex-direction: column;
+}
+
+.terceiro-bloco label{
+    margin-top: 8.2rem;
+}
+
+.div-b{
+    display: flex;
+    
+}
+
+.div-b button{
+    height: 3rem;
+    width: 6.688rem;
+    font-size: 1.125rem;
+    font-family: 'Poppins';
+}

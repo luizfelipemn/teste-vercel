@@ -1,0 +1,46 @@
+.usersResenhas {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #1DB954;
+    max-height: 200px;
+    max-width: 783px;
+    padding-top: 10px;
+    gap: 10px;
+    overflow: hidden; /* Adiciona overflow: hidden para a div principal */
+  }
+  
+  .usersResenhas .dadosDoUsuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2%;
+    align-items: center;
+  }
+  
+  .usersResenhas .resenhaUsuario {
+    overflow: auto;
+    font-size: 18px;
+    font-family: 'Poppins';
+    padding: 5px;
+    height: 80%;
+  }
+
+  .dadosDoUsuario .userNameResenha{
+    font-size: 16px;
+    font-family: 'Poppins';
+  }
+
+  .dadosDoUsuario .userNota{
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #1DB954;
+  }
+
+  .aspas{
+    color: #1DB954;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+
+  

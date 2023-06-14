@@ -1,0 +1,22 @@
+.btnSecundario {
+    background-color: #0C011C;
+    border: 1px solid white;
+    height: 3rem;
+    width: auto;
+    border-radius: 0.5rem;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    padding: 0.875rem 2.25rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    }
+    
+    .btnSecundario:hover {
+    background-color: #080114;
+    height: 3.1rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: 0.5s;
+    }

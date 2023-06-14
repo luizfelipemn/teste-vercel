@@ -1,0 +1,192 @@
+.div-geral {
+    height: 100%;
+    width: 100%;
+}
+
+.h1-sobre-nos{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-left: 6%;
+  
+}
+
+.div-verde {
+    height: 0.188rem;
+    width: 14rem;
+    background-color: #1DB954;
+    margin-left: 6%;
+    margin-top: 0.5%;
+}
+
+.div-paragrafo {
+
+    margin-top: 2%;
+    width: 87%;
+    margin-left: 6%;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.375rem;
+}
+
+.p-imagens {
+    width: 85%;
+    margin-left: 8%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.s-imagens {
+    margin-left: 25.600rem;
+    display: flex;
+    justify-content: space-between;
+    width: 41%;
+    padding-top: 1rem;
+}
+
+.leka {
+    height: 20.938rem;
+    width: 16rem;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    background-image: url('../../imgs/imgs/IMG_0832.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    
+}
+
+.luiz {
+    height: 20.938rem;
+    width: 16rem;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    background-image: url('../../imgs/imgs/IMG_0854.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+
+}
+
+.victor {
+    height: 20.938rem;
+    width: 16rem;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    background-image: url('../../imgs/imgs/IMG_0838.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.joao {
+    height: 20.938rem;
+    width: 16rem;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    background-image: url('../../imgs/imgs/IMG_0863.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.jaque {
+    height: 20.938rem;
+    width: 16rem;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    background-image: url('../../imgs/imgs/IMG_0851.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.bia {
+    height: 20.938rem;
+    width: 16rem;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    background-image: url('../../imgs/imgs/IMG_0836.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+}
+
+.ln {
+
+    background-color: #0C011C;
+    width: 3rem;
+    height: 2rem;
+    position: relative;
+    color: black;
+    float: left;
+    border-radius: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-ln {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.git {
+    background-color: #0C011C;
+    width: 3rem;
+    height: 2rem;
+    position: relative;
+    color: black;
+    float: left;
+    border-radius: 0 0 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-git {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.nome {
+    margin-top: 16.5rem;
+    background-color: #0C011C;
+    height: 3.5rem;
+    width: 60%;
+    border-radius: 0 0.5rem 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.img-equipe {
+    height: 60%;
+    width: 18%;
+
+
+}
+
+.final {
+    height: 1.875rem;
+
+}
+
+.h2-nomes {
+    padding-left: 8px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #1DB954;
+}
+
+.span-funcoes {
+    font-family: 'Poppins';
+    padding-left: 8px;
+
+}

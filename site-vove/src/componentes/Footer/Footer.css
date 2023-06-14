@@ -1,0 +1,14 @@
+footer {
+    height: 10.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    background-color: rgba(255, 0, 0, 0);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,49 @@
+.divBoxCircleGreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 1.4375rem;
+    width: 70%;
+    height: 28.125rem;
+}
+
+.tituloBoxCircleGreen {
+    width: 100%;
+    height: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4375rem;
+    line-height: 135%;
+    color: #ECECEC;
+    text-align: center;
+}
+
+.divCircleGreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 16.1875rem;
+    height: 16.1875rem;
+    left: 1.25rem;
+    top: 3.4375rem;
+    background: #150030;
+    border: 0.0625rem solid #1DB954;
+    border-radius: 100%;
+}
+
+.spanCircleGreen {
+    width: 8.125rem;
+    height: 2.6875rem;
+    left: 4.79625rem;
+    top: 10.1875rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 135%;
+    color: #ECECEC;
+    text-align: center;
+}

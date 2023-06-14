@@ -1,0 +1,67 @@
+.div-novaSenha{
+    height: 30.125rem;
+    width: 31.875rem;
+    border: 1px solid #1DB954;
+    margin-top: 4rem;
+    margin-left: 35%;
+    border-radius: 0.5rem;
+    background-color: #0C011C;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.div-novaSenha .box{
+margin-left: -3rem;
+margin-top: 2rem;
+}
+
+.div-novaSenha .verde{
+    width: 37%;
+}
+
+.div-novaSenha label{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.div-novaSenha input{
+    height: 3rem;
+    width: 21.375rem;
+    margin-left: 5rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.7rem;
+    padding: 1rem;
+}
+
+.div-novaSenha input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.div-novaSenha button{
+    background-color: #1DB954;
+    height: 3rem;
+    width: 11.938rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.div-novaSenha button:hover{
+    background-color: #1b8e43;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: 0.3s;
+}

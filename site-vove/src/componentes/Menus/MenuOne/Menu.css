@@ -1,0 +1,81 @@
+.navBar {
+    background-color: #0C001C;
+    height: 6.938rem;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 99999;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    width: 19.125rem;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 8.5rem;
+}
+
+.logo img {
+    height: 100%;
+    width: 9.875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 4.7619rem;
+}
+
+.hrefStyleNone {
+    text-decoration: none;
+}
+
+/* Media queries para diferentes resoluções */
+
+@media only screen and (max-width: 1920px) {
+    /* Estilos para tela Full HD */
+    .botoes {
+        width: 19.125rem;
+        margin-right: 8.5rem;
+    }
+
+    .logo img {
+        width: 9rem;
+        margin-left: 4.7619rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    /* Estilos para tela HD */
+    .botoes {
+        width: 15rem;
+        margin-right: 6rem;
+    }
+
+    .logo img {
+        width: 7.875rem;
+        margin-left: 3.8095rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+    .navBar {
+        height: 4rem;
+    }
+
+    .botoes {
+        width: 10rem;
+        margin-right: 3rem;
+    }
+
+    .logo img {
+        width: 6.25rem;
+        margin-left: 3.0476rem;
+    }
+}

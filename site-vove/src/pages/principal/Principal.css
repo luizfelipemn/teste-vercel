@@ -1,0 +1,126 @@
+.pop {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+.verde{
+    height: 0.188rem;
+    width: 20.25rem;
+    background-color: #1DB954;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+}
+
+.container{
+    margin-top: 2.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    height: 70px;
+    width: 40rem;
+   margin-bottom: 1rem;
+}
+
+.navegacao{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+width: 70rem;
+padding-right: 8rem;
+}
+
+.buscar{
+    font-family: 'Poppins';
+    font-size: 1.375rem;
+    color: #1DB954;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+.pesquisa{
+padding-left: 100rem;
+}
+
+.cards{
+    width: 85%;
+    margin-left: 8rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.two-container{
+    margin-top: 3rem;
+}
+
+.principal-resenhas{
+    width: 85%;
+    margin-left: 8rem;
+    display: flex;
+    
+    
+}
+
+.p-resenhas{
+width: 60%;
+padding: 0;
+
+}
+
+
+
+/* .voltar-topo{
+width: 45%;
+cursor: pointer;
+margin-left: 50%;
+border: 1px solid red;
+} */
+
+
+
+.a-voltar-topo{
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    margin-left: 80rem;
+    margin-top: -6rem;
+    cursor: pointer;
+    
+}
+
+.span-voltar{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 0.3rem;
+}
+
+.span-voltar:hover{
+    font-size: 17px;
+}
+
+.principal-verde{
+    height: 0.188rem;
+    width: 100%;
+    background-color: #1DB954;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.button-carregar{
+    font-size: 1rem;
+    font-family: 'Poppins';
+    color: #1DB954;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 76%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+

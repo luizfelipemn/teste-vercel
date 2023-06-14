@@ -1,0 +1,12 @@
+.tituloLinhaVerde{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleLinhaVerdeText{
+    font-family: Roboto;
+    font-size: 32px;
+    padding-left: 0px;
+    border-bottom: 2px solid #1DB954;
+    width: fit-content;
+}

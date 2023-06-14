@@ -1,0 +1,67 @@
+.btnVerde {
+    background-color: #1DB954;
+    height: 3rem;
+    width: auto;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    padding: 0.875rem 2.25rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btnVerde:hover {
+    background-color: #1b8e43;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Media queries para diferentes resoluções */
+
+@media only screen and (max-width: 1920px) {
+    /* Estilos para tela Full HD */
+    .btnVerde {
+        height: 3rem;
+        font-size: 1.125rem;
+        padding: 0.875rem 2.25rem;
+        margin-left: 10px;
+    }
+
+    .btnVerde:hover {
+        background-color: #67b482;
+        border-radius: 0.625rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    /* Estilos para tela HD */
+    .btnVerde {
+        height: 2.5rem;
+        font-size: 0.875rem;
+        padding: 0.625rem 1.5rem;
+        margin-left: 5px;
+    }
+
+    .btnVerde:hover {
+        height: 2.6rem;
+        border-radius: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos móveis */
+    .btnVerde {
+        height: 2.2rem;
+        font-size: 0.75rem;
+        padding: 0.5rem 1rem;
+        margin-left: 3px;
+    }
+
+    .btnVerde:hover {
+        height: 2.3rem;
+        border-radius: 0.4rem;
+    }
+}

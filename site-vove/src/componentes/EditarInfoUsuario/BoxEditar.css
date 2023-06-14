@@ -1,0 +1,52 @@
+.divBoxEditarDashboard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 1rem;
+    width: 27rem;
+    height: 5.9375rem;
+}
+
+.divEditarDashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.5rem;
+    width: 23.25rem;
+    height: 5.9375rem;
+}
+
+.divLapisEditar {
+    width: 2.75rem;
+    height: 2.75rem;
+    left: 24.25rem;
+    top: 3.1875rem;
+    background: url(../../imgs/icons/edit.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.inputEditarDashboard {
+    width: 23.25rem;
+    height: 3.5625rem;
+    left: 0px;
+    top: 2.375rem;
+    background: #150030;
+    border-radius: 0.5rem;
+    border: 0;
+    color: #FFFFFF;
+    padding: 0.625rem;
+}
+
+.tituloInputEditar {
+    width: 100%;
+    height: 1.875rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 135%;
+    color: #FFFFFF;
+}

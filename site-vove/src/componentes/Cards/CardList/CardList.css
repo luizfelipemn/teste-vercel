@@ -1,0 +1,94 @@
+.cardList {
+    width: 474px;
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardList .contentList {
+    display: flex;
+    flex-direction: row;
+    height: 277px;
+    justify-content: space-around;
+}
+
+.cardList .contentList .bannerList {
+    display: flex;
+    flex-direction: row;
+    width: 187px;
+}
+
+.cardList .contentList .text {
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.cardList .btnRemove {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.cardList .btnRemove .btnVerde {
+    align-self: center;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 1280px) {
+.cardList {
+    width: 372.44px;
+    height: 280.32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardList .contentList {
+    display: flex;
+    flex-direction: row;
+    height: 217.85px;
+    justify-content: space-around;
+}
+
+.cardList .contentList .bannerList {
+    display: flex;
+    flex-direction: row;
+    width: 146.68px;
+}
+
+.cardList .contentList .text {
+    display: flex;
+    flex-direction: column;
+    width: 208.38px;
+    justify-content: space-between;
+    font-size: 12.58px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.cardList .btnRemove {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7.83px;
+}
+
+.cardList .btnRemove .btnVerde {
+    align-self: center;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+    
+    
+}
